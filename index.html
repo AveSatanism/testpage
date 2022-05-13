@@ -1,82 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Test page</title>
-</head>
-<body>
-  <div class="head">
-    <img class="logo" src="assets\image\logo.svg" width="70" height="35" alt="Logo">
-    <header>
-      <h5 class="user_name margin_null">John Doe</h5>
-      <button class="button_icon_header"><img class="user_icon" src="assets\image\user.svg" width="28" height="28" alt="User icon"></button>
-      <button class="button_icon_header"><img class="arrow-down_icon" src="assets\image\arrow-down.svg" width="9" height="5" alt="Arrow-down"></button>
-    </header>
-  </div>
-  <div class="project_label">
-    <h3 class="project_name">Project name</h3>
-    <div class="project_label_icons">
-      <button class="button_icon"><img id="project_label_icons" src="assets\image\search-outlined.svg" width="20" height="20" alt="search icon"></button>
-       <button class="button_icon"><img id="project_label_icons" src="assets\image\cloud-download.svg" width="20" height="20" alt="cloud icon"></button>
-       <button class="button_icon"><img id="project_label_icons" src="assets\image\chart-outlined.svg" width="20" height="20" alt="chart icon"></button>
-       <button class="button_icon"><img id="project_label_icons" src="assets\image\cog-line.svg" width="20" height="20" alt="Cog icon"></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Test page</title>
+  </head>
+  <body>
+    <div class="head">
+      <img
+        class="logo"
+        src="assets\image\logo.svg"
+        width="70"
+        height="35"
+        alt="Logo"
+      />
+      <header>
+        <h5 class="user_name margin_null">John Doe</h5>
+        <button class="button_icon_header">
+          <img
+            class="user_icon"
+            src="assets\image\user.svg"
+            width="28"
+            height="28"
+            alt="User icon"
+          />
+        </button>
+        <button class="button_icon_header">
+          <img
+            class="arrow-down_icon"
+            src="assets\image\arrow-down.svg"
+            width="9"
+            height="5"
+            alt="Arrow-down"
+          />
+        </button>
+      </header>
     </div>
-  </div>
-  <div class="main_block">
-    <div class="import_title">
-      <img id="cloud_upload_icons" src="assets\image\cloud-upload.svg" width="25" height="25" alt="cloud upload icon">
-      <h5 class="import_text margin_null">Import references<br><p class="import_sub_text margin_null">Sub text</p></h5>
+    <div class="project_label">
+      <h3 class="project_name">Project name</h3>
+      <div class="project_label_icons">
+        <button class="button_icon">
+          <img
+            class="project_label_icons__icon"
+            src="assets\image\search-outlined.svg"
+            width="20"
+            height="20"
+            alt="search icon"
+          />
+        </button>
+        <button class="button_icon">
+          <img
+            class="project_label_icons__icon"
+            src="assets\image\cloud-download.svg"
+            width="20"
+            height="20"
+            alt="cloud icon"
+          />
+        </button>
+        <button class="button_icon">
+          <img
+            class="project_label_icons__icon"
+            src="assets\image\chart-outlined.svg"
+            width="20"
+            height="20"
+            alt="chart icon"
+          />
+        </button>
+        <button class="button_icon">
+          <img
+            class="project_label_icons__icon"
+            src="assets\image\cog-line.svg"
+            width="20"
+            height="20"
+            alt="Cog icon"
+          />
+        </button>
+      </div>
     </div>
-	<div class="import">
-	  <div class="drop_file_zone"><p class="drop_file_zone_text margin_null">Drop your file here</p></div>
-	  <div class="file_counter">
-		<div class="file_counter_content" id="drop_file">
-		  <p>Import</p><p id="counter">562</p><p>files</p>
-		</div>
-		<div class="file_counter_content" id="drop_file">
-		  <p>Duplicates</p><p id="counter">5</p><p>files</p>
-		</div>
-		<div class="file_counter_content" id="drop_file">
-		  <p>Errors</p><p id="counter">2</p><p>files</p>
-		</div>
-		<div class="file_counter_content">
-		  <p>Sucsess</p><p id="counter">205</p><p>files</p>
-		</div>
-	  </div>
-	  <button class="view_import_history">View import history and errors</button>
-	</div>
-  <div class="abstract_review_title">
-    <h5 class="module_number margin_null">1</h5>
-    <h5 class="module_names">Abstract review</h5>
-  </div>
-  <div class="module_content"></div>
-  <div class="full_text_review_title">
-    <h5 class="module_number margin_null">2</h5>
-    <h5 class="module_names">Full text review</h5>
-  </div>
-  <div class="module_content"></div>
-  <div class="extract_text_title">
-    <h5 class="module_number margin_null">3</h5>
-    <h5 class="module_names">Extract text</h5>
-  </div>
-  <div class="module_content"></div>
-  <div class="export_title">
-    <img id="cloud_download_icons" src="assets\image\cloud-download-white.svg" width="25" height="25" alt="cloud download icon">
-    <h5 class="module_names">Export</h5>
-  </div>
-  <button class="help_button">HELP BUTTON</button>
-  </div>
-</body>
-<footer>
-  <ul class="footer_links">
-    <li class="footer_link"><a class="margin_null">Help</a></li>
-    <li class="footer_link"><a class="margin_null">Contact us</a></li>
-    <li class="footer_link"><a class="margin_null">Terms & Conditions</a></li>
-    <li class="footer_link"><a class="margin_null">Privacy</a></li>
-  </ul>
-  <h5 class="footer_info margin_null">© 2022 Project</h5>
-  <h5 class="footer_info margin_null">v0.01 (2022-04-25 10:50 UTC)</h5>
-</footer>
+    <div class="main_block">
+      <div class="import_title">
+        <img
+          id="cloud_upload_icons"
+          src="assets\image\cloud-upload.svg"
+          width="25"
+          height="25"
+          alt="cloud upload icon"
+        />
+        <h5 class="import_text margin_null">
+          Import references<br />
+          <p class="import_sub_text margin_null">Sub text</p>
+        </h5>
+      </div>
+      <div class="import">
+        <div class="drop_file_zone">
+          <p class="drop_file_zone_text margin_null">Drop your file here</p>
+        </div>
+        <div class="file_counter">
+          <div class="file_counter_content" id="drop_file">
+            <p>Import</p>
+            <p id="counter">562</p>
+            <p>files</p>
+          </div>
+          <div class="file_counter_content" id="drop_file">
+            <p>Duplicates</p>
+            <p id="counter">5</p>
+            <p>files</p>
+          </div>
+          <div class="file_counter_content" id="drop_file">
+            <p>Errors</p>
+            <p id="counter">2</p>
+            <p>files</p>
+          </div>
+          <div class="file_counter_content">
+            <p>Sucsess</p>
+            <p id="counter">205</p>
+            <p>files</p>
+          </div>
+        </div>
+        <button class="view_import_history">
+          View import history and errors
+        </button>
+      </div>
+      <div class="abstract_review_title">
+        <h5 class="module_number margin_null">1</h5>
+        <h5 class="module_names">Abstract review</h5>
+      </div>
+      <div class="module_content"></div>
+      <div class="full_text_review_title">
+        <h5 class="module_number margin_null">2</h5>
+        <h5 class="module_names">Full text review</h5>
+      </div>
+      <div class="module_content"></div>
+      <div class="extract_text_title">
+        <h5 class="module_number margin_null">3</h5>
+        <h5 class="module_names">Extract text</h5>
+      </div>
+      <div class="module_content"></div>
+      <div class="export_title">
+        <img
+          id="cloud_download_icons"
+          src="assets\image\cloud-download-white.svg"
+          width="25"
+          height="25"
+          alt="cloud download icon"
+        />
+        <h5 class="module_names">Export</h5>
+      </div>
+    </div>
+    <button class="help_button">HELP BUTTON</button>
+    <footer>
+      <ul class="footer_links">
+        <li class="footer_link"><a class="margin_null">Help</a></li>
+        <li class="footer_link"><a class="margin_null">Contact us</a></li>
+        <li class="footer_link">
+          <a href="#" class="margin_null">Terms & Conditions</a>
+        </li>
+        <li class="footer_link"><a class="margin_null">Privacy</a></li>
+      </ul>
+      <h5 class="footer_info margin_null">© 2022 Project</h5>
+      <h5 class="footer_info margin_null">v0.01 (2022-04-25 10:50 UTC)</h5>
+    </footer>
+  </body>
 </html>
